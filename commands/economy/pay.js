@@ -18,10 +18,9 @@ module.exports = {
                 .setRequired(true)),
     /**
      * 
-     * @param {Client} client 
      * @param {CommandInteraction} interaction
      */
-    async execute(interaction, client) {
+    async execute(interaction) {
         // Getting the user from the "user" option
         const user = interaction.options.getUser('user');
 

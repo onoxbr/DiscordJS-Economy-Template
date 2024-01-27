@@ -10,10 +10,9 @@ module.exports = {
         .setDescription('Work to earn coins!'),
     /**
      * 
-     * @param {Client} client 
      * @param {CommandInteraction} interaction
      */
-    async execute(interaction, client) {
+    async execute(interaction) {
 
         // Get the user's database
         // If their database doesn't exist, create a new one with their id

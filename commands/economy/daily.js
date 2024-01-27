@@ -8,10 +8,9 @@ module.exports = {
 		.setName('daily')
 		.setDescription('Receive your daily reward'),
     /**
-     * @param {Client} client 
      * @param {CommandInteraction} interaction
      */
-	async execute(interaction, client) {
+	async execute(interaction) {
 
         // Get the user's database
         // If the user's database does not exist, create a new one with their ID

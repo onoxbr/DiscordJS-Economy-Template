@@ -12,10 +12,9 @@ module.exports = {
                 .setName('user')
                 .setDescription('View the wallet of a specific user')),
     /**
-     * @param {Client} client 
      * @param {CommandInteraction} interaction
      */
-	async execute(interaction, client) {
+	async execute(interaction) {
         // User to be used for the command
         // If the command author did not use the "user" option, the "user" will be the author themselves
         const user = interaction.options.getUser('user') || interaction.user;
