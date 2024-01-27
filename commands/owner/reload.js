@@ -17,7 +17,7 @@ module.exports = {
         const category = interaction.options.getString('category', true).toLowerCase();
 		const command = interaction.client.commands.get(commandName);
 
-        if(!interaction.user.id === process.env.OWNER_ID) return interaction.reply(`:x: | You dont have permissions to run this command!`)
+        if(interaction.user.id !== process.env.OWNER_ID) return interaction.reply(`:x: | You dont have permissions to run this command!`)
         
 		if (!command) {
 			return interaction.reply(`The command \`${commandName}\` does not exist!`);

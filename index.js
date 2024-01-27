@@ -18,6 +18,7 @@ const client = new Client({
 })
 
 client.commands = new Collection() // Collection where the slash commands will be stored
+module.exports = client
 
 async function deploy() {
 	const commands = [];
