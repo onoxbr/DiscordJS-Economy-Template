@@ -14,7 +14,18 @@ How to Use
     `npm install`
     
 3.  Configure the `.env` file with the following variables:
-    `# Your bot's token TOKEN=  # MongoDB URI MONGO_URI=  # Your application's ID CLIENT_ID=  # Your ID OWNER_ID=`
+   ```# Bot token
+TOKEN=               
+
+# MongoDB URI
+MONGO_URI=          
+
+# Application ID
+CLIENT_ID=    
+
+# Your ID
+OWNER_ID=
+```
     
 4.  Start the bot using:   
     `node index.js`
