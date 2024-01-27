@@ -44,3 +44,5 @@ Database
 --------
 
 This template uses MongoDB as the database to store information about users and their economic transactions.
+
+## More commands will be added soon
