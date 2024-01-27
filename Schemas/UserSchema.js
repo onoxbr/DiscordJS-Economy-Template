@@ -1,4 +1,4 @@
-// Schema do usuário para a database
+// User schema
 
 const db = require("mongoose");
 
