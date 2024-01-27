@@ -14,7 +14,8 @@ How to Use
     `npm install`
     
 3.  Configure the `.env` file with the following variables:
-   ```# Bot token
+   ```
+# Bot token
 TOKEN=               
 
 # MongoDB URI
