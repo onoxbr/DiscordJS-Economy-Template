@@ -68,6 +68,8 @@ module.exports = {
                     }
                 });
             });
+        } else {
+            return interaction.reply({ ephemeral: true, content: `:x: | You do not have the specified amount in your wallet!` })
         }
     }
 };
