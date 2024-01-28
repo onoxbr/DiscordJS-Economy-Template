@@ -34,6 +34,7 @@ module.exports = {
         const db = await User.findOne({ userId: interaction.user.id }) || new User({ userId: interaction.user.id });
 
         const amountString = amount.toString();
+        if(user.id === interaction.user.id) return interaction.reply({ ephemeral: true, content: `:x: | You cannot send payments to yourself!`})
 
         if (amountString.startsWith("-") || amountString.includes("-")) return interaction.reply(`:x: | The amount cannot be negative!`);
 
