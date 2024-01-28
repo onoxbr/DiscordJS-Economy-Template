@@ -1,7 +1,7 @@
 DiscordJS Economy Template 🌟
 =============================
 
-This repository is a basic template for creating a Discord bot with economy functionalities. It includes commands to perform economic actions within your Discord server.
+This repository is a basic template for creating a Discord bot with global economy functionalities. It includes commands to perform economic actions within your Discord server.
 
 How to Use
 ----------
@@ -39,6 +39,7 @@ Commands
 *   **atm**: View your wallet.
 *   **pay**: Pay a specified amount to another user.
 *   **work**: Work to earn money.
+*   **rank**: See the global coin ranking. 
 
 Database
 --------
